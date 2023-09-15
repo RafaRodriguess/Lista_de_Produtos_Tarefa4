@@ -1,0 +1,42 @@
+.borda-azul{
+    border: 1px solid rgb(73, 73, 223);
+}
+.titulo-card{
+    text-align: center;
+    color: white;
+    background-color: rgb(73, 73, 223);
+    height: 40px;
+}
+.quantidade{
+    height: 150px;
+}
+.preço{
+    text-align: center;
+}
+input{
+    width: 100px;
+}
+
+.botao-adicionar-carrinho{
+    border: 1px solid black;
+    background-color: rgb(110, 179, 122);
+    margin-left: 3rem;
+    border-radius: 5px
+}
+.card-pagamento{
+    height: 160px;
+}
+.parte-esquerda, .parte-direita {
+    float: left;
+    width: 50%; /* Cada parte ocupa metade da largura da row */
+    box-sizing: border-box; /* Garante que a largura inclua padding e borda */
+    padding: 10px;
+}
+.parte-direita img{
+    height: 150px;
+    margin-top:0px;
+}
+.tab-pane img{
+    width: 300px;
+    height: 300px;
+}
